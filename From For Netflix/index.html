@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Netflix, Form">
+    <meta name="description" content="From for Netflix">
+    <meta name="author" content="Ahmet Karadaş">
+    <link rel="shortcut icon" href="img/netflix-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Netflix Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            NET<span class="flix">FLIX</span>
+        </h1>
+        <p class="begin-p">
+            Thank you for signing up at Netflix. 
+            Tell us more about yourself.
+        </p>
+        <form action="">
+            <label for="name">Name</label>
+            <br>
+            <input class="up-input" type="text" placeholder="Enter Your Name">
+            <br>
+            <label for="age">Age</label>
+            <br>
+            <input class="up-input"  type="text" placeholder="Enter Your Age">
+            <br>
+            <label for="e-mail">Email</label>
+            <br>
+            <input class="up-input"  type="email" name="email" placeholder="Enter Your Email">
+            <br>
+            <label for="content-type">Content Type</label>
+            <br>
+            <select class="cont-type" name="type">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+            </select>
+            <br>
+            <label for="movie-type">Movie Type</label>
+            <br>
+            <input class="checkbox" type="checkbox" name="comedy"><span class="movie-type-style">Comedy</span>
+            <br>
+            <input class="checkbox" type="checkbox" name="action"><span class="movie-type-style">Action</span>
+            <br>
+            <input class="checkbox" type="checkbox" name="romance"><span class="movie-type-style">Romance</span>
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <input class="checkbox" type="radio" name="gender">Male
+            <br>
+            <input class="checkbox" type="radio" name="gender">Female
+            <br>
+            <input class="checkbox" type="radio" name="gender">Other
+            <br>
+            <textarea class="textarea" name="comment" cols="40" rows="10" placeholder="Any Comment..."></textarea>
+            <br>
+            <input class="button" type="button" value="Send">
+        </form>
+    </div>
+    
+</body>
+</html>
